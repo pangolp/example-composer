@@ -1,6 +1,8 @@
 <?php
 
-include __DIR__ . "/../vendor/autoload.php";
+require_once __DIR__ . "/../vendor/autoload.php";
 
-$azerothcore = new \pagan\azeroth\Azeroth();
+use pagan\azeroth\Azeroth;
+
+$azerothcore = new Azeroth();
 $azerothcore->sayAzeroth();
