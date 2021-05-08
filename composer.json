@@ -1,0 +1,13 @@
+{
+    "name": "pagan/example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pagani Walter",
+            "email": "paganiwalter@gmail.com"
+        }
+    ],
+    "require": {
+        "pagan/azeroth": "dev-master"
+    }
+}
